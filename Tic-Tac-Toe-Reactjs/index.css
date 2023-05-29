@@ -42,3 +42,17 @@ code {
   color: antiquewhite;
   border: 2px ouset rgba(69, 10, 10, 0.871);
 }
+
+@media screen and (max-width: 480px) {
+  .board{
+    width: 54%;
+   }
+   .status{
+    top: 5%;
+    left: 28%;
+    position: absolute;
+   }
+   .game-info{
+    margin: 30px 100px;
+   }
+}
