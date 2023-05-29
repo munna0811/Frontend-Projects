@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
+  background-color: black;
 }
 
 code {
@@ -13,10 +13,32 @@ code {
     monospace;
 }
 .square{
-  border: 2px solid black;
-  background-color: rgba(9, 154, 239, 0.059);
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 60px;
   font-weight: bolder;
-  font-size: larger;
+  font-size: 32px;
+  background-color: rgb(87, 55, 13);
+  color: antiquewhite;
+  border: 2px ouset rgba(69, 10, 10, 0.871);
+}
+.board{
+  background-color: antiquewhite;
+  width: 15%;
+  margin: auto;
+  margin-top: 100px;
+}
+.status{
+  color: antiquewhite;
+  font-style: italic;
+  font-size: 25px;
+  font-weight: bolder;
+}
+.game-info ol{
+  list-style: none;
+}
+.game-info ol li button{
+  font-size: 16px;
+  background-color: rgb(87, 55, 13);
+  color: antiquewhite;
+  border: 2px ouset rgba(69, 10, 10, 0.871);
 }
